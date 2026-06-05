@@ -185,6 +185,26 @@ Scenario C: Creative Content – Iteration Documentation
 | Version 3 | Act as a professional marketing copywriter. Create five short, memorable taglines for a premium eco-friendly water bottle brand. Keep each tagline under six words. | Added role prompting, brand positioning, creativity requirements, and length constraints. | Produced multiple concise, creative, and marketable taglines aligned with the brand's values. |
 
 
+### 1.3 Role and Context Usage (Required)
+
+**Scenario A: Technical Explanation**
+
+Role Assignment: "You are a friendly elementary school teacher."
+
+Context Setting: The explanation was intended for a 10-year-old child and required simple language, short sentences, and everyday examples.
+
+Adding the teacher role encouraged the model to use a more educational and age-appropriate communication style. Providing context about the audience helped the model avoid complex terminology and focus on concepts that a child could easily understand. The resulting explanation was clearer, more engaging, and better aligned with the intended audience.
+
+**Scenario C: Creative Content**
+
+Role Assignment: "Act as a professional marketing copywriter."
+
+Context Setting: The task involved creating taglines for a premium eco-friendly water bottle brand that promotes sustainability, healthy living, and environmental responsibility.
+
+The copywriter role guided the model toward a marketing-oriented writing style and encouraged creative thinking. The additional brand context helped the model understand the target message and audience. As a result, the generated taglines were more memorable, persuasive, and aligned with the brand's values and marketing goals.
+
+
+
 
 
 
