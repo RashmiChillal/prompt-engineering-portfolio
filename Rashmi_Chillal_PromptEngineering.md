@@ -165,6 +165,24 @@ Iteration Documentation
 | Version 2 | Explain blockchain to a 10-year-old child using simple language and a real-life example. | Added target audience and requested simple language and an example. | Made the explanation easier to understand and more relatable for a child. |
 | Version 3 | You are a friendly elementary school teacher. Explain blockchain to a 10-year-old child using simple words, short sentences, and everyday examples. Avoid technical jargon. | Added role prompting, simplified language requirements, and everyday examples. | Produced a more engaging, age-appropriate explanation tailored to a 10-year-old audience. |
 
+Scenario B: Professional Email – Iteration Documentation
+### Iteration Documentation
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+|----------|---------|-------------|------------------------------|
+| Version 1 | Write an email declining a job offer. | Initial prompt with minimal instructions. | Generated a basic email but lacked professionalism, appreciation, and future relationship-building. |
+| Version 2 | Write a professional email declining a job offer. Thank the company for the opportunity and maintain a positive tone. | Added professionalism, gratitude, and tone requirements. | Improved courtesy and made the email more suitable for business communication. |
+| Version 3 | Act as a professional career advisor. Write a polite and professional email declining a job offer while expressing appreciation and continued interest in future opportunities. | Added role prompting and specified future interest in the company. | Produced a polished email that preserved goodwill and kept the door open for future opportunities. |
+
+Scenario C: Creative Content – Iteration Documentation
+
+### Iteration Documentation
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+|----------|---------|-------------|------------------------------|
+| Version 1 | Create a tagline for an eco-friendly water bottle. | Initial prompt with limited guidance. | Produced a relevant but generic tagline that lacked distinctiveness. |
+| Version 2 | Create a catchy marketing tagline for an eco-friendly water bottle brand that encourages sustainability and healthy living. | Added marketing focus and key brand themes. | Generated a more memorable and targeted tagline. |
+| Version 3 | Act as a professional marketing copywriter. Create five short, memorable taglines for a premium eco-friendly water bottle brand. Keep each tagline under six words. | Added role prompting, brand positioning, creativity requirements, and length constraints. | Produced multiple concise, creative, and marketable taglines aligned with the brand's values. |
 
 
 
