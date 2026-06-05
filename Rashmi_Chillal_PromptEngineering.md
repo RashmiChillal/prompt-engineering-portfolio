@@ -153,7 +153,17 @@ Act as a professional marketing copywriter. Create five short, memorable tagline
 3. Hydrate Green. Inspire Change.
 4. Better Bottles. Better Planet.
 5. Refresh Yourself. Respect Earth.
-Reflection
+
+**1.2 Iteration Documentation**
+ ### Scenario A: Technical Explanation
+Iteration Documentation
+### Iteration Documentation
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+|----------|---------|-------------|------------------------------|
+| Version 1 | Explain blockchain. | Initial prompt with no audience specification. | Established a baseline response but produced a technical explanation that was difficult for children to understand. |
+| Version 2 | Explain blockchain to a 10-year-old child using simple language and a real-life example. | Added target audience and requested simple language and an example. | Made the explanation easier to understand and more relatable for a child. |
+| Version 3 | You are a friendly elementary school teacher. Explain blockchain to a 10-year-old child using simple words, short sentences, and everyday examples. Avoid technical jargon. | Added role prompting, simplified language requirements, and everyday examples. | Produced a more engaging, age-appropriate explanation tailored to a 10-year-old audience. |
 
 
 
