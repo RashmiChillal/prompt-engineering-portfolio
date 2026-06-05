@@ -204,8 +204,46 @@ Context Setting: The task involved creating taglines for a premium eco-friendly 
 The copywriter role guided the model toward a marketing-oriented writing style and encouraged creative thinking. The additional brand context helped the model understand the target message and audience. As a result, the generated taglines were more memorable, persuasive, and aligned with the brand's values and marketing goals.
 
 
+## Part 2: Temperature & Parameter Control
 
+Prompt Used
 
+Write a 2-3 sentence opening for a fantasy story about a mysterious door in the forest.
+
+**Low Temperature (0.2)**
+
+Expected Behavior: Deterministic, focused, and consistent.
+
+**Output:**
+
+A young girl walking through the forest discovered a strange wooden door standing between two trees. It had no handle and did not appear to belong to any building. Curious, she stopped to examine it.
+
+**Medium Temperature (0.7)**
+
+Expected Behavior: Balanced mix of creativity and coherence.
+
+**Output:**
+
+Deep in the forest, a weathered wooden door stood alone among the trees, covered in silver vines that seemed to glow in the moonlight. When Maya touched the door, she heard faint whispers coming from the other side.
+
+**High Temperature (1.2)**
+
+Expected Behavior: Creative, diverse, and less predictable.
+
+**Output:**
+
+The door appeared every Tuesday at sunset, growing from the roots of an ancient tree like a wooden flower. Tiny dragons circled its golden frame, singing songs in forgotten languages as the forest held its breath.
+### 2.1 Temperature Experimentation
+
+Comparison of Temperature Settings
+Temperature	Characteristics Observed
+### Comparison of Temperature Settings
+
+| Temperature | Characteristics Observed |
+|-------------|--------------------------|
+| Low (0.2) | Clear, logical, and predictable. Focused on basic storytelling elements. |
+| Medium (0.7) | Balanced creativity and coherence. Added interesting details while maintaining clarity. |
+| High (1.2) | Highly imaginative and unique. Produced more surprising and creative ideas. |
 
 
 
