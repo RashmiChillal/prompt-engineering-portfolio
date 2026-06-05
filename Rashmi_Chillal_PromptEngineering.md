@@ -133,11 +133,13 @@ Rashmi
 **Goal::**  Generate a creative marketing tagline for a new eco-friendly water bottle brand
 **Initial Prompt:**
 Create a tagline for an eco-friendly water bottle.
+
 **Output:**
 Eco-friendly water bottles for a better future.
 
 **Refined Prompt – Iteration 1**
-Create a catchy marketing tagline for an eco-friendly water bottle brand that encourages sustainability and healthy living
+Create a catchy marketing tagline for an eco-friendly water bottle brand that encourages sustainability and healthy living.
+
 **Output:**
 Drink Smart. Live Green.
 
