@@ -348,6 +348,19 @@ Sentiment: Negative
 | 4 | The quality is okay but slightly overpriced for what you get. | Neutral |
 | 5 | Terrible experience, would not recommend to anyone. | Negative |
 
-Now classify the following reviews.
+**Step 3:** Analysis
+### Comparison Table
 
-Reviews and Classifications
+| Review # | Zero-Shot Result | Few-Shot Result | Correct Label | Improved? |
+|----------|------------------|-----------------|---------------|-----------|
+| 1 | Negative | Negative | Negative | No |
+| 2 | Neutral | Neutral | Neutral | No |
+| 3 | Positive | Positive | Positive | No |
+| 4 | Neutral | Neutral | Neutral | No |
+| 5 | Negative | Negative | Negative | No |
+
+
+**Analysis**
+
+Few-shot prompting is most useful when a task requires a specific format, classification style, or decision criteria that may not be obvious from the instructions alone. By providing examples, the model can better understand the expected output and apply the same pattern to new inputs. Few-shot prompting is particularly effective for classification, information extraction, and structured response tasks where consistency is important.
+ For these five reviews, both zero-shot and few-shot prompting may produce identical results because the sentiment is relatively clear. This is normal and not a problem. The key purpose of few-shot prompting is to demonstrate how examples help guide the model's behavior, especially for more ambiguous tasks.
