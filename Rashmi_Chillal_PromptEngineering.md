@@ -246,7 +246,74 @@ Temperature	Characteristics Observed
 | High (1.2) | Highly imaginative and unique. Produced more surprising and creative ideas. |
 
 
+### 2.2 Analysis & Recommendations
+
+Low temperature is most useful when accuracy, consistency, and predictability are important. Two specific use cases are generating technical documentation and answering factual questions, where clear and reliable responses are required. High temperature is most useful for creative tasks that benefit from originality and diverse ideas. Two specific use cases are writing fictional stories and brainstorming marketing slogans, where unique and imaginative content is valuable. For the chosen task of creating a fantasy story opening, the medium temperature (0.7) worked best because it provided a good balance between creativity and coherence. It produced an engaging and imaginative story while maintaining a clear and logical narrative structure.
 
 
+## Part 3: Strategic Prompting Techniques
 
+### 3.1 Chain-of-Thought Prompting
+Selected Problem: Option B – Multi-Step Reasoning
 
+Problem:
+
+A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. If the company plans to hire 20% more engineers and 10% more sales people, how many total employees will there be after hiring?
+
+**1. Without Chain-of-Thought**
+
+Prompt
+
+A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. If the company plans to hire 20% more engineers and 10% more sales people, how many total employees will there be after hiring? Provide only the final answer.
+
+**LLM Output**
+
+172 employees
+
+**2. With Chain-of-Thought**
+Prompt
+
+A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. If the company plans to hire 20% more engineers and 10% more sales people, how many total employees will there be after hiring?
+
+Let's solve this step by step and show all calculations before giving the final answer.
+
+**LLM Output**
+Total employees = 150
+Engineering employees:
+60% of 150 = 0.60 × 150 = 90
+Sales employees:
+25% of 150 = 0.25 × 150 = 37.5
+Operations employees:
+150 − 90 − 37.5 = 22.5
+Additional engineering hires:
+20% of 90 = 18
+Additional sales hires:
+10% of 37.5 = 3.75
+Total new hires:
+18 + 3.75 = 21.75
+Total employees after hiring:
+150 + 21.75 = 171.75
+
+Rounded to the nearest whole employee, the company will have 172 employees after hiring.
+
+**3.Comparison**
+
+The non-chain-of-thought prompt produced only the final answer without showing how it was calculated. In contrast, the chain-of-thought prompt broke the problem into smaller steps and displayed the intermediate calculations, making the reasoning process transparent and easier to verify. Chain-of-thought prompting is especially useful for multi-step reasoning tasks because it reduces the likelihood of missing important calculations. One limitation is that the response becomes longer and may occasionally include unnecessary details for simple problems.
+
+### 3.2 Few-Shot Prompting
+**Task:**
+Create a sentiment classifier using few-shot prompting
+
+**Step 1:** Zero-Shot Attempt.
+
+Prompt
+Classify the sentiment of each review as Positive, Negative, or Neutral.
+### Reviews and Classifications
+
+| Review # | Review | Zero-Shot Result |
+|----------|--------|------------------|
+| 1 | The product arrived damaged and customer service was unhelpful. | Negative |
+| 2 | Works as expected, nothing special but does the job. | Neutral |
+| 3 | Absolutely love this! Best purchase I've made all year! | Positive |
+| 4 | The quality is okay but slightly overpriced for what you get. | Neutral |
+| 5 | Terrible experience, would not recommend to anyone. | Negative |
