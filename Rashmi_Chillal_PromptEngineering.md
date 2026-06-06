@@ -464,4 +464,25 @@ Many cultures have professional forms of dress that are not Western. For example
 
 The idea that professional attire should always be Western is problematic because it can reflect cultural bias and overlook the diversity of professional norms around the world. Modern workplaces increasingly recognize that professionalism is demonstrated through competence, conduct, and appropriate presentation rather than adherence to a single cultural style of dress.
 
+### 4.3 Limitations & Responsible Use
+
+**Three Limitations**
+
+* Hallucinations and Inaccurate Information
+LLMs can sometimes generate information that sounds convincing but is factually incorrect or unsupported. This requires users to verify important facts using reliable sources, especially for academic, medical, legal, or financial topics.
+* Sensitivity to Prompt Wording
+The quality of responses often depends on how a prompt is written. Small changes in wording, context, or instructions can produce significantly different outputs, making prompt design an important part of obtaining accurate and relevant results.
+* Limited Understanding of Context and Intent
+Although LLMs can process large amounts of text, they may misunderstand ambiguous questions or fail to fully capture the user's intended meaning. This can lead to responses that are technically correct but not aligned with the user's actual needs.
+
+**Three Recommendations for Responsible LLM Use**
+
+1. Verify Important Outputs
+Users should verify LLM-generated information whenever accuracy is critical. This includes academic research, medical advice, legal information, financial decisions, statistical data, and current events. Cross-checking with reliable sources helps prevent the spread of misinformation and reduces the risk of acting on incorrect information.
+
+2. Recognize Tasks That LLMs Are Not Suitable For
+LLMs should not be used as the sole source of truth for high-stakes decisions such as medical diagnoses, legal judgments, financial planning, or emergency situations. They may generate inaccurate, incomplete, or outdated information and cannot replace qualified professionals or authoritative sources.
+
+3. Use LLMs Ethically in Work and Studies
+LLMs should be used as tools to support learning, brainstorming, drafting, and productivity rather than to bypass learning or misrepresent authorship. Users should follow academic and workplace policies, properly acknowledge AI assistance when required, and ensure that submitted work reflects their own understanding and critical thinking.
 
