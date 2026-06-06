@@ -317,3 +317,37 @@ Classify the sentiment of each review as Positive, Negative, or Neutral.
 | 3 | Absolutely love this! Best purchase I've made all year! | Positive |
 | 4 | The quality is okay but slightly overpriced for what you get. | Neutral |
 | 5 | Terrible experience, would not recommend to anyone. | Negative |
+
+**Step 2:** Few-Shot Attempt
+Prompt
+
+Classify the sentiment of each review as Positive, Negative, or Neutral.
+
+Review: "This product exceeded my expectations!"
+Sentiment: Positive
+
+Review: "Completely broke after one week of use."
+Sentiment: Negative
+
+Review: "It's fine, does what it says on the box."
+Sentiment: Neutral
+
+Review: "Excellent quality and fast shipping."
+Sentiment: Positive
+
+Review: "Customer support never responded to my issue."
+Sentiment: Negative
+
+### Reviews and Classifications
+
+| Review # | Review | Few-Shot Result |
+|----------|--------|-----------------|
+| 1 | The product arrived damaged and customer service was unhelpful. | Negative |
+| 2 | Works as expected, nothing special but does the job. | Neutral |
+| 3 | Absolutely love this! Best purchase I've made all year! | Positive |
+| 4 | The quality is okay but slightly overpriced for what you get. | Neutral |
+| 5 | Terrible experience, would not recommend to anyone. | Negative |
+
+Now classify the following reviews.
+
+Reviews and Classifications
