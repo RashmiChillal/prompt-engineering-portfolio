@@ -94,6 +94,7 @@ So, in simple words, a blockchain is like a shared classroom sticker chart that 
 
 **Initial Prompt** Write a professional email declining a job offer. Thank the company for the opportunity and maintain a positive tone.
 
+
 **Refined Prompt – Iteration 1**
 Write a professional email declining a job offer. Thank the company for the opportunity and maintain a positive tone.
 **Output:**
