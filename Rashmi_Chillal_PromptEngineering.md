@@ -1,5 +1,5 @@
-# Rashmi Chillal - Prompt Engineering Portfolio
-
+# Prompt Engineering Portfolio
+Rashmi Chillal
 Date: June 2026
 
 LLM Platform: ChatGPT
