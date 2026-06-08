@@ -9,6 +9,7 @@ Version: GPT-5.5
 ## Part 1: Prompt Design & Iteration
 ### 1.1 Scenario A: Technical Explanation
 **Goal::** Explain the concept of Blockchain to a 10-year-old child.
+
 **Initial Prompt:** Explain what is Blockchain
 A blockchain is a digital record-keeping system that stores information in a way that makes it very difficult to change or tamper with.
 Think of it as a notebook shared by many people:
